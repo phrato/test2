@@ -11,9 +11,8 @@ $(function(){
 		equip3Url = $equip3.children("img").attr("src").replace(/common\u002fimg_card_thum\u002fassist\u002f/g, ""),
 		soulPlus = $soul.children("div").text(),
 		soulUrl = $soul.children("img").attr("src").replace(/common\u002fimg_card_thum\u002fassist\u002f/g, "");
-		eqiupData($equip1);
 		alert("!");
-		eqiupData($equip1);
+	for (i = 0 , )
 	console.log ($equip1);
 	console.log ($equip2);
 	console.log ($equip3);
@@ -21,7 +20,14 @@ $(function(){
 	console.log (equip1Plus);
 	console.log (equip1Url);
 		alert("!!!");
-	function equipState(equipNo) {
+	var array = [];
+	console.log(array);
+		for (i=0;i=3;i++;){
+		array.push{($equip + i)}
+		}
+	console.log(array);
+	var equipNo = equipState(equip);
+	function equipState(Url) {
 		if(equipNo = 0){
 
 		}
