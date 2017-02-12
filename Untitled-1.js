@@ -21,7 +21,7 @@ $(function(){
 		alert("!!!");
 	var array = [];
 	console.log(array);
-		for (i=0;i=3;i++;){
+		for (var i=0; i=3; i++){
 		array.push{($equip + i)}
 		}
 	console.log(array);
