@@ -12,7 +12,6 @@ $(function(){
 		soulPlus = $soul.children("div").text(),
 		soulUrl = $soul.children("img").attr("src").replace(/common\u002fimg_card_thum\u002fassist\u002f/g, "");
 		alert("!");
-	for (i = 0 , )
 	console.log ($equip1);
 	console.log ($equip2);
 	console.log ($equip3);
