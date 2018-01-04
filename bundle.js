@@ -1,6 +1,4 @@
 $(function(){
-  'use strict';
-  // get equip state
   class eqData {
     constructor(url) {
       const n = document.getElementById(url).getAttribute('src').slice(0, -4);
@@ -203,5 +201,5 @@ $(function(){
   stateSet();
   stateChange();
   $selector.addEventListener('change', stateChange);
-  
+
 });
