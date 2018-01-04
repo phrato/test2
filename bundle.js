@@ -1,3 +1,4 @@
+$(function(){
   'use strict';
   // get equip state
   class eqData {
@@ -202,3 +203,5 @@
   stateSet();
   stateChange();
   $selector.addEventListener('change', stateChange);
+  
+});
