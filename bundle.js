@@ -1,4 +1,3 @@
-window.addEventListener('load', () => {
   'use strict';
   // get equip state
   class eqData {
@@ -203,4 +202,3 @@ window.addEventListener('load', () => {
   stateSet();
   stateChange();
   $selector.addEventListener('change', stateChange);
-}, false);
