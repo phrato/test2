@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   // get equip state
+  console.log("実行中")
   class eqData {
     constructor(url) {
       const n = document.getElementById(url).getAttribute('src').slice(0, -4);
